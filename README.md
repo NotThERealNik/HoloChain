@@ -35,7 +35,7 @@ This library supports interactive, real-time data visualization through gestures
 ## **How to Get Started**
 ### 1. **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/HoloChain.git
+git clone https://github.com/NotThERealNik/HoloChain.git
 cd HoloChain
 ```
 
