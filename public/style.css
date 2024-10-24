@@ -1,0 +1,70 @@
+/* Style for the body and overall layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #1e1e2f, #30303f);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style for the 3D scene container */
+  #root {
+    width: 80%;
+    height: 80%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
+    background-color: rgba(20, 20, 30, 0.8);
+    overflow: hidden;
+  }
+  
+  /* Text animations and headings */
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #f0f0f0;
+    letter-spacing: 5px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  /* Button for interaction */
+  button {
+    padding: 10px 20px;
+    background-color: #5050ff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff5050;
+  }
+  
+  /* Keyframes for animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Optional footer for credits or project info */
+  footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 0.9rem;
+    color: #9090a0;
+  }
+  
