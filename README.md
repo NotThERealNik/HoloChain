@@ -1,4 +1,3 @@
-Here's a suggested **README.md** file to showcase the "HoloChain" project:
 
 ---
 
